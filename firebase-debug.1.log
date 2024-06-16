@@ -1,0 +1,22 @@
+[debug] [2024-06-16T10:51:20.348Z] ----------------------------------------------------------------------
+[debug] [2024-06-16T10:51:20.350Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\naira\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js apps:create android flutterdatatest (android) --package-name=y --json --project=flutteruserinformationtest
+[debug] [2024-06-16T10:51:20.351Z] CLI Version:   13.11.2
+[debug] [2024-06-16T10:51:20.351Z] Platform:      win32
+[debug] [2024-06-16T10:51:20.352Z] Node Version:  v18.16.0
+[debug] [2024-06-16T10:51:20.353Z] Time:          Sun Jun 16 2024 16:21:20 GMT+0530 (India Standard Time)
+[debug] [2024-06-16T10:51:20.353Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-16T10:51:20.362Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-06-16T10:51:20.363Z] > authorizing via signed-in user (connect.rahulnai@gmail.com)
+[info] Create your ANDROID app in project flutteruserinformationtest:
+[debug] [2024-06-16T10:51:20.369Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/flutteruserinformationtest/androidApps [none]
+[debug] [2024-06-16T10:51:20.370Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/flutteruserinformationtest/androidApps {"displayName":"flutterdatatest (android)","packageName":"y"}
+[debug] [2024-06-16T10:51:21.089Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/flutteruserinformationtest/androidApps 400
+[debug] [2024-06-16T10:51:21.090Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/flutteruserinformationtest/androidApps {"error":{"code":400,"message":"Request contains an invalid argument.","status":"INVALID_ARGUMENT"}}
+[debug] [2024-06-16T10:51:21.092Z] HTTP Error: 400, Request contains an invalid argument.
+[debug] [2024-06-16T10:51:21.296Z] FirebaseError: HTTP Error: 400, Request contains an invalid argument.
+    at responseToError (C:\Users\naira\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\naira\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:305:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create Android app for project flutteruserinformationtest. See firebase-debug.log for more info.

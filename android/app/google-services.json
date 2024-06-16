@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "743662220242",
+    "firebase_url": "https://flutteruserinformationtest-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "flutteruserinformationtest",
+    "storage_bucket": "flutteruserinformationtest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743662220242:android:b3ff4ef26663e4e32b0e0b",
+        "android_client_info": {
+          "package_name": "com.example.flutterdatatest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1KbGccUsZjSJWCBJ5qvU32Q1hrSqZ5MQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
